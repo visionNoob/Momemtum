@@ -1,0 +1,134 @@
+body,
+html {
+	height: 100%;
+	/* text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+		1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black; */
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* IE 10+ */
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+	display: none; /* Chrome Safari */
+}
+
+.hide {
+	display: none;
+}
+.top {
+	height: 10%;
+	text-align: left;
+	font-weight: bold;
+}
+
+.mid {
+	height: 85%;
+}
+
+.inline-block {
+	display: inline-block;
+	/* align-items: inherit; */
+}
+
+.mid_border {
+	width: 30%;
+	/* height: 85%; */
+	background-color: aqua;
+}
+
+.mid_center {
+	width: 85%;
+}
+.input_border {
+	width: 30%;
+}
+
+.focus-input {
+	background-color: transparent;
+	outline: 0;
+	border-width: 0 0 5px;
+	border-color: white;
+	text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+		1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	font-size: 1em;
+}
+
+.bottom {
+	height: 10%;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+
+.quate {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.weather-top {
+	font-size: 1.4em;
+	margin-bottom: 0%;
+	margin-top: 0%;
+	padding-bottom: 0%;
+	border-bottom: 0%;
+	text-align: right;
+	color: #fff;
+}
+
+.weather-bottom {
+	font-size: 0.4em;
+	margin-top: 0%;
+	border-top: 0;
+	text-align: right;
+	color: #fff;
+}
+
+.focus-input {
+	width: 100%;
+	display: block;
+	color: #fff;
+	font-size: 2.25em;
+	font-weight: 500;
+	line-height: 1.2;
+	outline: none;
+	text-align: center;
+}
+
+.login-hello {
+	color: #fff;
+	text-align: center;
+	font-size: 3em;
+	vertical-align: middle;
+}
+
+.todo-text {
+	color: #fff;
+	text-align: left;
+	font-size: 1em;
+	vertical-align: middle;
+}
+.clock1 {
+	color: #fff;
+	text-align: left;
+	font-size: 1em;
+	vertical-align: middle;
+}
+
+.clock2 {
+	color: #fff;
+	text-align: center;
+	font-size: 5em;
+	vertical-align: middle;
+}
+
+.todo-elements {
+	color: #fff;
+	text-align: center;
+	font-size: 1em;
+	vertical-align: middle;
+	text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+		1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+}

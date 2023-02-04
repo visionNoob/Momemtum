@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello World</h1>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="top">
+			<div class="weather">
+				<p class="weather-top"></p>
+				<p class="weather-bottom"></p>
+			</div>
+		</div>
+
+		<div class="padding"></div>
+		<div class="mid">
+			<div class="inline-block mid_border"></div>
+
+			<div id="before-login" class="inline-block inline-block">
+				<form id="login-form" class="default-text">
+					<div id="desc" class="login-hello">Hello,what's your name?</div>
+					<div>
+						<input class="focus-input" />
+					</div>
+					<div id="debug"></div>
+				</form>
+			</div>
+
+			<div id="after-login" class="hide">
+				<div id="clock">
+					<div class="clock1"></div>
+					<div class="clock2"></div>
+				</div>
+				<form id="todo-form">
+					<div class="todo-text">What is your jobs for today?</div>
+					<input class="focus-input" />
+					<div class="todo-elements"></div>
+				</form>
+			</div>
+		</div>
+
+		<div class="bottom">
+			<div class="quate"></div>
+		</div>
+
+		<script>
+			const localStorage = window.localStorage;
+		</script>
+
+		<script src="./js/realtimeClock.js"></script>
+		<script src="./js/loginForm.js"></script>
+		<script src="./js/todolist.js"></script>
+		<script src="./js/quates.js"></script>
+		<script src="./js/weather.js"></script>
+		<script src="./js/background.js"></script>
+	</body>
 </html>
